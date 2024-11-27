@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# **Star Wars Favorites**
 
-## Getting Started
+> Um aplicativo que permite aos fãs de Star Wars explorar informações sobre personagens e marcar seus favoritos.
 
-First, run the development server:
+## **Índice**
+- [Sobre o Projeto](#sobre-o-projeto)
+- [Funcionalidades](#funcionalidades)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Pré-requisitos](#pré-requisitos)
+- [Como Configurar o Projeto](#como-configurar-o-projeto)
+- [Como Usar](#como-usar)
+- [Estrutura do Projeto](#estrutura-do-projeto)
+- [Contribuindo](#contribuindo)
+- [Licença](#licença)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## **Sobre o Projeto**
+Este é um aplicativo de lista de personagens de Star Wars onde os usuários podem:
+- Pesquisar e visualizar informações detalhadas sobre os personagens.
+- Adicionar personagens aos favoritos para acessá-los facilmente.
+- Utilizar uma interface moderna e responsiva.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+A API utilizada para buscar os dados dos personagens é a [SWAPI (Star Wars API)](https://swapi.dev/).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## **Funcionalidades**
+- **Listagem de Personagens**: Visualize os personagens do universo de Star Wars.
+- **Favoritos**: Adicione personagens à sua lista de favoritos e gerencie-os facilmente.
+- **Pesquisa**: Filtre os personagens pelo nome.
+- **Interface Responsiva**: Projetado para funcionar em desktops e dispositivos móveis.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## **Tecnologias Utilizadas**
+- **Frontend**: 
+  - [React](https://reactjs.org/)
+  - [Next.js](https://nextjs.org/)
+  - [TypeScript](https://www.typescriptlang.org/)
+- **Estilização**:
+  - CSS Modules
+  - [React Icons](https://react-icons.github.io/react-icons/)
+  - [React Spinners](https://www.davidhu.io/react-spinners/)
+- **API**: [SWAPI (Star Wars API)](https://swapi.dev/)
+- **Gerenciamento de Estado**: Context API (via React)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## **Pré-requisitos**
+Antes de começar, certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
+- [Node.js](https://nodejs.org/) (versão 16 ou superior recomendada)
+- [npm](https://www.npmjs.com/) ou [yarn](https://yarnpkg.com/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## **Como Configurar o Projeto**
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/starwars-favorites.git
+   cd starwars-favorites
